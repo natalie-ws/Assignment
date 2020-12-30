@@ -1,0 +1,86 @@
+body {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+}
+
+/* colours
+(#5E0525), (#740025), (#CE0027), (#FC7C3D), (#EAAE4E);
+ */
+
+body {
+    background-color: #5E0525;
+    color: white;
+}
+
+img {
+    width:20%;
+    height:15%;
+    background-color: black;
+    padding: 15px;
+    margin: 15px;
+    float:left;
+   
+}
+
+header {
+    background-color: #740025;
+    padding: 1em 3em;
+    color: #FC7C3D;
+grid-area: header
+
+}
+
+nav {
+grid-area: nav;
+
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+}
+
+li{
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+margin-left: 4em;
+padding: 1em 1em;
+text-decoration: none;
+text-align: center;
+
+}
+
+main {
+    background-color: #740025;
+grid-area: main;
+
+}
+
+.intro {
+background-color: black;
+padding: 5%;
+text-align: center;
+border-style: dotted;
+border-color: #EAAE4E;
+}
+
+
+footer {
+    background-color: #EAAE4E;
+grid-area: footer;
+color: black;
+
+}

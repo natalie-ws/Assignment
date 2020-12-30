@@ -3,6 +3,12 @@
     <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<link rel="stylesheet" href="main.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Open+Sans&display=swap" rel="stylesheet">
+
+
 <title>Assignment One</title>
     </head>
 
@@ -11,49 +17,52 @@
 <h1>Contact Me</h1>
 </header>
 <Nav>
-    
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-        <a href="cv.html">CV</a>
-        <a href="sitereport.html">Site Report</a>
-    
-</Nav>
+    <ul>
+      <li>  <a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li> 
+       <li><a href="contact.html">Contact</a></li> 
+        <li><a href="cv.html">CV</a></li>
+      <li> <a href="sitereport.html">Site Report</a></li> 
+    </ul>
+    </Nav>
 
 <Main>
 
-    Email: Natalie.woodstoddard20@my.northampton.ac.uk
-Phone: 07463724994
-Contact Form  
+<p class="intro">Email: Natalie.woodstoddard20@my.northampton.ac.uk <br>
+Phone: 07463724994</p>
 
 
+
+<h2>Contact Form</h2>
+
+<h5 class="mainform">
 <Form action="action" method="GET">
-<label>First Name</label>
+<label>First Name</label> 
 <input type = "text" name="First Name"/>
-<label>Surname</label>
+<label>Surname</label> 
 <input type = "text" name="Surname"/>
-<label>Email Address</label>
+<label>Email Address</label> 
 <input type="text" name="Email Address"/>
-<label>Phone Number</label>
+<label>Phone Number</label> 
 <input type = "text" name="Phone Number">
 </form>
 
-<p>Which best descibes you?</p>
+<p>Which best descibes you?</p> 
 <form action="action" method="POST">
    
-    <label>Teacher</label>
+    <label>Teacher</label> 
 <input type="radio" name="myradio" value="radio button 1"/>
-<label>Relative</label>
+<label>Relative</label> 
 <input type="radio" name="myradio" value="radio button 2"/>
-<label>Friend</label>
+<label>Friend</label> 
 <input type="radio" name="my radio" value="radio button 3"/>
-<label>Enemy</label>
+<label>Enemy</label> 
 <input type="radio" name="my radio" value="radio button 4"/>
-</form>
+</form><br>
 
 <form action="http://www.computing.northampton.ac.uk/-tom/formtest.php" method="POST">
-    <label>Who do you wish to receive a response from?</label>
-<select name="Which person">
+    <label>Who do you wish to receive a response from?</label> 
+<select name="Which person"> 
     <option value="01">Natalie</option>
     <option value="02">Pete the boyfriend</option>
     <option value="03">Donnie the baby</option>
@@ -62,22 +71,20 @@ Contact Form
 </select>
 
 
-<label>Happy for us to contact you? (please tick)</label>
+<label>Happy for us to contact you? (please tick)</label> 
 <input type="checkbox" name="Future Contact"/>
-</form>
+</form><br>
 
 <form action="action" method="POST">
-<label>Please type your reason for contact</label>
+<label>Please type your reason for contact</label> 
 <textarea name="mytextarea">
 </textarea>
-</form>
+</form><br>
 
-<input type="submit" name="submit" value="Submit"/>
+<input type="submit" name="submit" value="Submit"/><br><br>
 
-
-
-
-</Main>
+</h5>
+</main>
 
 <Footer>© Natalie Wood-Stoddard 2020</Footer>
 

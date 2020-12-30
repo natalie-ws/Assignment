@@ -11,7 +11,11 @@ body {
 
 /* colours
 (#5E0525), (#740025), (#CE0027), (#FC7C3D), (#EAAE4E);
- */
+/*
+/* fonts 
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Open Sans', sans-serif;
+*/ 
 
 body {
     background-color: #5E0525;
@@ -19,11 +23,12 @@ body {
 }
 
 img {
-    width:20%;
-    height:15%;
+
+    width:15em;
+    height:15em;
     background-color: black;
-    padding: 15px;
-    margin: 15px;
+    padding: 1em;
+    margin: 1em;
     float:left;
    
 }
@@ -32,13 +37,14 @@ header {
     background-color: #740025;
     padding: 1em 3em;
     color: #FC7C3D;
+    font-family: 'Cormorant Garamond', serif;
 grid-area: header
 
 }
 
 nav {
 grid-area: nav;
-
+font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -56,7 +62,7 @@ float: left;
 li a {
 display: block;
 color: white;
-margin-left: 4em;
+margin-left: 3em;
 padding: 1em 1em;
 text-decoration: none;
 text-align: center;
@@ -64,11 +70,15 @@ text-align: center;
 }
 
 main {
-    background-color: #740025;
 grid-area: main;
+font-family: 'Open Sans', sans-serif;
 
 }
 
+h2 {
+    margin: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
 .intro {
 background-color: black;
 padding: 5%;
@@ -78,9 +88,28 @@ border-color: #EAAE4E;
 }
 
 
+.mainform {
+    padding: 5%;
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+    box-shadow: #EAAE4E;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#FC7C3D;
+    color: black;
+    }
+
+form {
+    display:grid;
+    width: 400px;
+    grid-template-columns: 50% 50%;
+    align-items: centre;
+    grid-gap: 0.5em;
+    }
+
 footer {
     background-color: #EAAE4E;
 grid-area: footer;
 color: black;
-
+font-family: 'Open Sans', sans-serif;
 }

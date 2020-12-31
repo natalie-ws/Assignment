@@ -22,6 +22,11 @@ body {
     color: white;
 }
 
+div h2 {
+    column-span: all;
+}
+
+/*  
 img {
 
     width:15em;
@@ -32,7 +37,7 @@ img {
     float:left;
    
 }
-
+*/
 header {
     background-color: #740025;
     padding: 1em 3em;
@@ -75,9 +80,27 @@ font-family: 'Open Sans', sans-serif;
 
 }
 
+.newspaper {
+    column-count: 6;
+    column-width: 16%;
+    column-gap: 1em;
+    column-rule-style: dotted;
+    column-rule-width: 5px;
+    column-rule-color: #EAAE4E;
+    text-align: center;
+
+}
+
+.newspaper img {
+width: 180px;
+height: 100px;
+border-radius: 50%;
+}
+
 h2 {
     margin: 1em;
     font-family: 'Open Sans', sans-serif;
+    text-align: left;
 }
 .intro {
 background-color: black;

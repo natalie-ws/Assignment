@@ -26,18 +26,6 @@ div h2 {
     column-span: all;
 }
 
-/*  
-img {
-
-    width:15em;
-    height:15em;
-    background-color: black;
-    padding: 1em;
-    margin: 1em;
-    float:left;
-   
-}
-*/
 header {
     background-color: #740025;
     padding: 1em 3em;
@@ -80,9 +68,22 @@ font-family: 'Open Sans', sans-serif;
 
 }
 
+.cvpage {
+  column-count: 2;
+  column-gap: 1em;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-rule-color: black;
+  grid-area: main;
+  background-color: #FC7C3D;
+  color: black;
+  border: #EAAE4E;
+  padding: 5%;
+  border-style: solid;
+}
+
 .newspaper {
     column-count: 6;
-    column-width: 16%;
     column-gap: 1em;
     column-rule-style: dotted;
     column-rule-width: 5px;

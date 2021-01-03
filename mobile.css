@@ -1,0 +1,47 @@
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header"
+    ".shownav"
+    "body"
+    "footer";
+}
+
+header {
+background-color: #740025;
+padding: 1em 3em;
+color: #FC7C3D;
+font-family: 'Cormorant Garamond', serif;
+grid-area: header;
+}
+
+
+
+.shownav {
+    height: 0.8em;
+    width: 1.8em;
+    display:block;
+    border-top: 0.2em solid purple;
+    border-bottom: 0.2em solid purple;
+    border-radius: 0.1em;
+    grid-area: shownav;
+    }
+    
+    .shownav:before {
+    content: '';
+    position: absolute;
+    width: 1.8em;
+    top: 2em;
+    left: 48px;
+    border-top: 0.2em solid purple;
+    }
+    
+    body{
+        grid-area: body;
+    }
+
+    footer{
+        grid-area: footer;
+    }

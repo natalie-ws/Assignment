@@ -1,13 +1,3 @@
-body {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "header header header"
-    "nav nav nav"
-    "main main main"
-    "footer footer footer";
-}
 
 /* colours
 (#5E0525), (#740025), (#CE0027), (#FC7C3D), (#EAAE4E);
@@ -22,6 +12,14 @@ body {
     color: white;
 }
 
+.intro {
+    background-color: black;
+    padding: 5%;
+    text-align: center;
+    border-style: dotted;
+    border-color: #EAAE4E;
+    }
+    
 div h2 {
     column-span: all;
 }
@@ -31,109 +29,12 @@ header {
     padding: 1em 3em;
     color: #FC7C3D;
     font-family: 'Cormorant Garamond', serif;
-grid-area: header
-
 }
 
-nav {
-grid-area: nav;
-font-family: 'Open Sans', sans-serif;
-}
-
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: black;
-}
-
-li{
-float: left;
-}
-
-li a {
-display: block;
-color: white;
-margin-left: 3em;
-padding: 1em 1em;
-text-decoration: none;
-text-align: center;
-
-}
-
-main {
-grid-area: main;
-font-family: 'Open Sans', sans-serif;
-
-}
-
-.cvpage {
-  column-count: 2;
-  column-gap: 1em;
-  column-rule-style: solid;
-  column-rule-width: 5px;
-  column-rule-color: black;
-  grid-area: main;
-  background-color: #FC7C3D;
-  color: black;
-  border: #EAAE4E;
-  padding: 5%;
-  border-style: solid;
-}
-
-.newspaper {
-    column-count: 6;
-    column-gap: 1em;
-    column-rule-style: dotted;
-    column-rule-width: 5px;
-    column-rule-color: #EAAE4E;
-    text-align: center;
-
-}
-
-.newspaper img {
-width: 180px;
-height: 100px;
-border-radius: 50%;
-}
 
 h2 {
     margin: 1em;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
 }
-.intro {
-background-color: black;
-padding: 5%;
-text-align: center;
-border-style: dotted;
-border-color: #EAAE4E;
-}
 
-
-.mainform {
-    padding: 5%;
-    text-align: left;
-    border-style: solid;
-    border-color: black;
-    box-shadow: #EAAE4E;
-    font-family: 'Open Sans', sans-serif;
-    background-color:#FC7C3D;
-    color: black;
-    }
-
-form {
-    display:grid;
-    width: 400px;
-    grid-template-columns: 50% 50%;
-    align-items: centre;
-    grid-gap: 0.5em;
-    }
-
-footer {
-    background-color: #EAAE4E;
-grid-area: footer;
-color: black;
-font-family: 'Open Sans', sans-serif;
-}

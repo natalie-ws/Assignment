@@ -46,20 +46,7 @@ nav {
         
         }
 
-        .cvpage {
-            column-count: 2;
-            column-gap: 1em;
-            column-rule-style: solid;
-            column-rule-width: 5px;
-            column-rule-color: black;
-            grid-area: main;
-            background-color: #FC7C3D;
-            color: black;
-            border: #EAAE4E;
-            padding: 5%;
-            border-style: solid;
-          }
-          
+
           .newspaper {
               column-count: 6;
               column-gap: 1em;

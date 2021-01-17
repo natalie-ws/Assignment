@@ -8,7 +8,7 @@ font-family: 'Open Sans', sans-serif;
 */ 
 
 body {
-    background-color: #5E0525;
+   background-color: #740025;
     color: white;
 }
 
@@ -38,3 +38,18 @@ h2 {
     text-align: left;
 }
 
+.cvpage {
+    column-count: 2;
+    column-gap: 1em;
+    column-rule-style: solid;
+    column-rule-width: 5px;
+    column-rule-color: black;
+    grid-area: main;
+    background-color: #FC7C3D;
+    color: black;
+    border: #EAAE4E;
+    padding: 5%;
+    border-style: solid;
+  }
+  
+ 

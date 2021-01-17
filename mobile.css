@@ -1,32 +1,47 @@
 body {
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
     grid-template-areas:
-    "nav header"
-    "main main"
-    "footer footer";
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+}
+
+nav {
+    grid-area: nav;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
-    column-span: all;
-    text-align: right;
 grid-area: header;
 }
 
-
+main{
+    grid-area: main;
+}
 /* topnav {
     background-color: #740025;
     grid-area:topnav;
 } */
 
 
-ul {
+
+
+li {
     list-style-type: none;
+    color: white;
+    border: 0.1;
+    border-style: solid;
+    border-color: #EAAE4E;
+    padding: 0.5em;
+    font-size: 2em;
+    margin: 0.5em;
+    transition: 0.5s;
+    text-decoration: none;
+    text-align: center;
 }
-
-
-
 .shownav {
     height: 0.8em;
     width: 1.25em;
@@ -34,14 +49,14 @@ ul {
     border-top: 0.2em solid black;
     border-bottom: 0.2em solid black;
     border-radius: 0.2em;
-    
+
     }
     
     .shownav:before {
     content: '';
     position: absolute;
     width: 1.25em;
-    top: 1em;
+    top: 8.1em;
     left: 0.5em;
     border-top: 0.2em solid black;
     }
@@ -71,7 +86,7 @@ ul {
     height: 100vh;
 } 
 
-#menu:target .on
+#menu
  {
     display: none;
     background-color: black;
@@ -83,7 +98,7 @@ ul {
     height: 100vh;
 } 
 
-#menu:target .off
+#menu:target
 {
     display: block;
     background-color: black;
@@ -95,10 +110,17 @@ ul {
     height: 100vh;
 }
 
+.off {
+    list-style-type: none;
+    color: white;
+    font-size: 2em;
+    border-style:solid;
+    padding: 0.3em;
+    border-radius: 50%;
+    border-color:  #EAAE4E;
+    text-decoration: none;
+}
 
-main{
-        grid-area: main;
-    }
     .newspaper {
         column-count: 1;
         column-gap: 1em;
@@ -114,7 +136,37 @@ main{
     border-width: 0.4em;
     border-color: black;
     }
+    .mainform {
+        padding: 5%;
+        text-align: left;
+        border-style: solid;
+        border-color: black;
+        box-shadow: #EAAE4E;
+        font-family: 'Open Sans', sans-serif;
+        background-color:#FC7C3D;
+        color: black;
+        }
+    
+    form {
+        display:grid;
+        width: 400px;
+        grid-template-columns: 50% 50%;
+        align-items: centre;
+        grid-gap: 0.5em;
+        }
+
+.sitereport{
+    padding: 5%;
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+    box-shadow: #EAAE4E;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#FC7C3D;
+    color: black;
+}
 
     footer{
         grid-area: footer;
+        background-color: #EAAE4E;
     }

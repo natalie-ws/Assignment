@@ -85,6 +85,24 @@ nav {
                 grid-gap: 0.5em;
                 }
 
+.sitedevelopment {
+    text-align: center;
+}
+
+.validationreport {
+    column-count: 2;
+    column-gap: 1em;
+    column-rule-style: solid;
+    column-rule-width: 5px;
+    column-rule-color: black;
+    grid-area: main;
+    background-color: #740025;
+    color: white;
+    border: #EAAE4E;
+    padding: 2%;
+    border-style: none;
+    text-align: center;
+  }
                 
 footer {
     background-color: #EAAE4E;

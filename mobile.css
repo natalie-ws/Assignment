@@ -155,16 +155,6 @@ li {
         grid-gap: 0.5em;
         }
 
-.sitereport{
-    padding: 5%;
-    text-align: left;
-    border-style: solid;
-    border-color: black;
-    box-shadow: #EAAE4E;
-    font-family: 'Open Sans', sans-serif;
-    background-color:#FC7C3D;
-    color: black;
-}
 
     footer{
         grid-area: footer;

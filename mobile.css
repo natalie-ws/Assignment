@@ -21,24 +21,18 @@ grid-area: header;
 main{
     grid-area: main;
 }
-/* topnav {
-    background-color: #740025;
-    grid-area:topnav;
-} */
-
-
 
 
 li {
     list-style-type: none;
-    color: white;
-    border: 0.1;
     border-style: solid;
     border-color: #EAAE4E;
     padding: 0.5em;
     font-size: 2em;
     margin: 0.5em;
     transition: 0.5s;
+    background-color: #FC7C3D;
+    color: black;
     text-decoration: none;
     text-align: center;
 }
@@ -78,7 +72,7 @@ li {
 {
     display: none;
     background-color: black;
-    color: white;
+    
     position: fixed;
     top: 0;
     right: 50%;
@@ -141,7 +135,6 @@ li {
         text-align: left;
         border-style: solid;
         border-color: black;
-        box-shadow: #EAAE4E;
         font-family: 'Open Sans', sans-serif;
         background-color:#FC7C3D;
         color: black;
@@ -151,7 +144,6 @@ li {
         display:grid;
         width: 400px;
         grid-template-columns: 50% 50%;
-        align-items: centre;
         grid-gap: 0.5em;
         }
 

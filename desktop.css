@@ -1,3 +1,4 @@
+
 body {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -71,7 +72,6 @@ nav {
                 text-align: left;
                 border-style: solid;
                 border-color: black;
-                box-shadow: #EAAE4E;
                 font-family: 'Open Sans', sans-serif;
                 background-color:#FC7C3D;
                 color: black;
@@ -81,7 +81,6 @@ nav {
                 display:grid;
                 width: 400px;
                 grid-template-columns: 50% 50%;
-                align-items: centre;
                 grid-gap: 0.5em;
                 }
 
@@ -89,8 +88,12 @@ nav {
     text-align: center;
 }
 
+.off {
+    display:none;
+}
+
 .validationreport {
-    column-count: 2;
+    column-count: 5;
     column-gap: 1em;
     column-rule-style: solid;
     column-rule-width: 5px;

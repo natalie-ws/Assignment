@@ -17,6 +17,7 @@
 <header>
 <h1>Contact Me</h1>
 </header>
+<Main>
 <Nav>
     <a href="#menu" class="shownav"></a>
   
@@ -30,11 +31,8 @@
         <li><a href="cv.html">CV</a></li>
       <li> <a href="sitereport.html">Site Report</a></li> 
     </ul>
-
-
-
-  </Nav>
-<Main>
+</Nav>
+</Nav>
 
 <p class="intro">Email: Natalie.woodstoddard20@my.northampton.ac.uk <br>
 Phone: 07463724994</p>
@@ -43,7 +41,7 @@ Phone: 07463724994</p>
 
 <h2>Contact Form</h2>
 
-<h5 class="mainform">
+<div class="mainform">
 <Form action="action" method="GET">
 <label>First Name</label> 
 <input type = "text" name="First Name"/>
@@ -88,10 +86,11 @@ Phone: 07463724994</p>
 <textarea name="mytextarea">
 </textarea>
 </form><br>
-
+<form action="mailto:thomas.butler@northampton.ac.uk?subject=ContactForm" method="POST">
+    <label></label>
 <input type="submit" name="submit" value="Submit"/><br><br>
-
-</h5>
+</form>
+</div>
 </main>
 
 <Footer>© Natalie Wood-Stoddard 2020</Footer>
